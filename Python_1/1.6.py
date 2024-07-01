@@ -10,7 +10,7 @@ print(sum(i ** 2 for i in my_spisok_1))
 numbers_list = [1, 2, 3, 4, 5]
 z = 0
 for c in numbers_list:
-      z += i ** 2
+      z += c ** 0.5
 print(z)
 
 #Задача 4: Дан список с числами: [1, 2, -3, 4, -5] Найдите сумму квадратов элементов этого списка.
@@ -26,9 +26,6 @@ for num in my_spisok_3:
 
 print(total)
 
-#Задача 6: Дана некоторая строка 'abcde Переберите и выведите в консоль по очереди все символы с конца строки
+#Задача 6: Дана некоторая строка 'abcde' Переберите и выведите в консоль по очереди все символы с конца строки
 string_name = "abcde"
-
-for element in string_name:
-    print(element, end=' ')
-print("\n")
+print(string_name[-1::-1])
