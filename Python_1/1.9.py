@@ -10,4 +10,4 @@ my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4,}
 
 for k, v  in my_dict.items():
   my_dict[k] = v ** 2
-my_dict
+print(my_dict)
